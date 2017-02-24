@@ -23,12 +23,12 @@ module Liquid
                 :video_path,
                 :video_url,
 
-                to: :h
+                to: :v
 
       private
 
-        def h
-          @h ||= @context.registers[:view]
+        def v
+          @v ||= @context.registers[:view]
         end
     end
   end

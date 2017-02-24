@@ -5,12 +5,12 @@ module Liquid
                 :distance_of_time_in_words,
                 :time_ago_in_words,
 
-                to: :h
+                to: :v
 
       private
 
-        def h
-          @h ||= @context.registers[:view]
+        def v
+          @v ||= @context.registers[:view]
         end
     end
   end
